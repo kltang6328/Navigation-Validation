@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Navigation&Validation: Gender Identities</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style type=text/css>
+        .agender {
+            background-image: url(pictures/agenderB.jpg);
+            background-size: 100% 100%;
+        }
+        .agender span:after {
+            content: 'does not identify with a gender';
+        }
+        .aliagender {
+            background-image: url(pictures/aliagenderB.jpg);
+            background-size: 100% 100%;
+        }
+        .aliagender span:after {
+            content: 'does not fit into other gender constructs';
+        }
+        .androgyne {
+            background-image: url(pictures/androgyneB.jpg);
+            background-size: 100% 100%;
+        }
+        .androgyne span:after {
+            content: 'presents themselves and behaves androgynously';
+        }
+        .aporagender {
+            background-image: url(pictures/aporagenderB.jpg);
+            background-size: 100% 100%;
+        }
+        .aporagender span:after {
+            content: 'identity is different from male, female, or any combination';
+        }
+        .bigender {
+            background-image: url(pictures/bigenderB.jpg);
+            background-size: 100% 100%;
+        }
+        .bigender span:after {
+            content: 'experiences two gender identities';
+        }
+        .cisgender {
+            background-image: url(pictures/alliesB.jpg);
+            background-size: 100% 100%;
+        }
+        .cisgender span:after {
+            content: 'identifies with the sex they were assigned at birth';
+        }
+        .demigender {
+            background-image: url(pictures/demigenderB.jpg);
+            background-size: 100% 100%;
+        }
+        .demigender span:after {
+            content: 'experiences partial identity with another gender';
+        }
+        .expansive {
+            background-image: url(pictures/expansiveB.jpg);
+            background-size: 100% 100%;
+        }
+        .expansive span:after {
+            top: 60px;
+            content: 'identity is broader than common definitions of gender';
+        }
+        .genderfluid {
+            background-image: url(pictures/genderfluidB.jpg);
+            background-size: 100% 100%;
+        }
+        .genderfluid span:after {
+            content: 'experiences changes in their gender identity';
+        }
+        .nonconform {
+            background-image: url(pictures/nonconformB.jpg);
+            background-size: 100% 100%;
+        }
+        .nonconform span:after {
+            top: 60px;
+            content: 'challeneges gender expectations in terms of behavior and appearance';
+        }
+        .genderqueer {
+            background-image: url(pictures/genderqueerB.jpg);
+            background-size: 100% 100%;
+        }
+        .genderqueer span:after {
+            content: 'does not align with gender norms';
+        }
+        .gendervoid {
+            background-image: url(pictures/gendervoidB.jpg);
+            background-size: 100% 100%;
+        }
+        .gendervoid span:after {
+            content: 'cannot experience any gender';
+        }
+        .intersex {
+            background-image: url(pictures/intersexB.jpg);
+            background-size: 100% 100%;
+        }
+        .intersex span:after {
+            content: 'born with reproductive or sexual anatomy that is neither male nor female';
+        }
+        .nonbinary {
+            background-image: url(pictures/nonbinaryB.jpg);
+            background-size: 100% 100%;
+        }
+        .nonbinary span:after {
+            content: 'gender identity is not male or female';
+        }
+        .omnigender {
+            background-image: url(pictures/omnigenderB.jpg);
+            background-size: 100% 100%;
+        }
+        .omnigender span:after {
+            content: 'experiences almost every gender identity';
+        }
+        .pangender {
+            background-image: url(pictures/pangenderB.jpg);
+            background-size: 100% 100%;
+        }
+        .pangender span:after {
+            content: 'experiences almost every gender identity';
+        }
+        .transgender {
+            background-image: url(pictures/transgenderB.jpg);
+            background-size: 100% 100%;
+        }
+        .transgender span:after {
+            content: 'identifies with a gender identity they were not assigned at birth';
+        }
+        .twospirit {
+            background-image: url(pictures/twospiritB.jpg);
+            background-size: 100% 100%;
+        }
+        .twospirit span:after {
+            content: 'used by some Indigenous people to describe having a female and male spirit';
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="grid-container">
+            <div class="grid-child title">
+                <h1>PrideMakers 2021: Navigation&Validation</h1>
+            </div>    
+
+            <div class="grid-child links">
+                <h2><a href="https://liquidhacks.teamliquid.com/" target="_blank">Team Liquid Makeathon</a></h2>
+                <h2><a href="https://devpost.com/kaylatang02" target="_blank">Kayla Tang</a></h2>
+            </div>
+        </div>
+
+        <h1 class="line">__________________________________________________________________________________________</h1>
+        <br>
+
+        <nav>
+            <a class="nav" href="PMgender.html"><span>Gender Identities</span></a>
+            <a class="nav" href="PMpronoun.html">Pronouns</a>
+            <a class="nav" href="PMsexuality.html">Sexual Orientations</a>
+            <a class="nav" href="PMinfo.html">More Info</a>
+        </nav>
+    </div>
+
+    <div class="content">
+        <div class="description">
+            <p>Gender refers to how an individual identifies themselves. Only the individual can determine their gender. Some of the terms listed are umbrella terms and overlap each other. Also these are the better known gender identites, but there are many more, so if you feel that these do not accurately represent how you feel about yourself, take time to reserach more at the links in the tab labeled <a href="PMinfo.html">More Info</a>.</p>
+        </div>
+    
+        <div class="grid-container2 options">
+            <button class="button agender"><span>Agender </span></button>
+            <button class="button aliagender"><span>Aliagender </span></button>
+            <button class="button androgyne"><span>Androgyne </span></button>
+            <button class="button aporagender"><span>Aporagender </span></button>
+            <button class="button bigender"><span>Bigender </span></button>
+            <button class="button cisgender"><span>Cisgender </span></button>
+            <button class="button demigender"><span>Demigender </span></button>
+            <button class="button expansive"><span>Gender Expansive </span></button>
+            <button class="button genderfluid"><span>Genderfluid </span></button>
+            <button class="button nonconform"><span>Gender Nonconforming </span></button>
+            <button class="button genderqueer"><span>Genderqueer </span></button>
+            <button class="button gendervoid"><span>Gendervoid </span></button>
+            <button class="button intersex"><span>Intersex </span></button>
+            <button class="button nonbinary"><span>Nonbinary </span></button>
+            <button class="button omnigender"><span>Omnigender </span></button>
+            <button class="button pangender"><span>Pangender </span></button>
+            <button class="button transgender"><span>Transgender </span></button>
+            <button class="button twospirit"><span>Two-spirit </span></button>
+        </div>
+    </div>
+</body>
+</html>
