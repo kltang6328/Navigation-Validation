@@ -1,0 +1,137 @@
+h1 {
+    -webkit-animation: rainbow 10s infinite; 
+}
+@-webkit-keyframes rainbow{
+    0%{color: rgb(255, 201, 100);}	
+    10%{color: rgb(255, 109, 255);}	
+    20%{color: rgb(255, 113, 113);}
+    30%{color: rgb(192, 236, 238);}
+    40%{color: rgb(255, 255, 136);}
+    50%{color: rgb(255, 181, 154);}
+    60%{color: rgb(122, 197, 122);}
+    70%{color: rgb(189, 255, 255);}
+    80%{color: rgb(255, 164, 213);}
+    90%{color: rgb(148, 190, 231);}
+    100%{color: rgb(255, 221, 157);}
+}
+.line {
+    margin-top: -86px;
+    padding-bottom: 10px;
+}
+h2 {
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    background-color: rgb(30, 30, 30);
+    font-family: Optima, sans-serif;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    margin-left: -7px;
+    z-index: 0;
+}
+.content {
+    padding-top: 120px;
+}
+.nav {
+    float: left;
+    display: inline;
+    padding: 15px 140px 15px 140px;
+    background-color: rgb(20, 20, 20);
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border: 0px;
+    margin-top: -48px;
+    z-index: -1;
+}
+.nav:hover {
+    background-color: rgb(30, 30, 30);
+}
+p {
+    color: white;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 60px;
+    background-color: rgb(20, 20, 20);
+}
+.title {
+    background-color: rgb(20, 20, 20);
+    margin-top: -10px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.links {
+    background-color: rgb(20, 20, 20);
+    margin-top: -10px;
+}
+nav {
+    color: white;
+    width: 100%;
+}
+.description {
+    float: left;
+    text-align: center;
+    padding: 20px 300px 20px 300px;
+}
+ul {
+    text-align: left;
+    list-style-type: none;
+    padding-left: 600px;
+}
+ul a {
+    color: rgb(160, 160, 160);
+}
+.options {
+
+}
+.grid-container2 {
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.button {
+    border-radius: 30px;
+    background-color: rgb(43, 94, 143);
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    height: 200px;
+    width: 225px;
+    
+    cursor: pointer;
+    margin: 5px;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after {
+    position: absolute;
+    opacity: 0;
+    top: 30px;
+    right: 0px;
+    transition: 0.5s;
+    font-size: 15px;
+    padding-top: 20px;
+}
+.button:hover span {
+    padding-bottom: 100px;
+}
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
